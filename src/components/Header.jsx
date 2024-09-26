@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function Header() {
   return (
-    <div className="navbar bg-base-100 mx-auto max-w-7xl">
+    <div className="navbar bg-base-100 mx-auto max-w-7xl relative top-0">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

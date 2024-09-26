@@ -1,8 +1,10 @@
 import { useState } from "react";
+import Header from "../components/Header";
 
 export default function App() {
   return (
     <div className="hero bg-base-200 min-h-screen">
+      <Header />
       <div className="hero-content flex flex-col lg:flex-row gap-6">
         <div className="flex-col">
           <img
