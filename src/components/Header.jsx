@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function Header() {
   return (
-    <div className="navbar bg-base-100 mx-auto max-w-7xl relative top-0">
+    <div className="navbar bg-base-100 mx-auto max-w-7xl fixed top-0">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -45,17 +45,19 @@ export default function Header() {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Mahita Ramgolam</a>
+        <a href="/" className="btn btn-ghost text-xl">
+          Mahita Ramgolam
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Projects</a>
+            <a href="projects">Projects</a>
           </li>
           <li>
             <details>
               <summary>
-                Blogs{" "}
+                Blogs{""}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -73,21 +75,23 @@ export default function Header() {
               </summary>
               <ul className="p-2">
                 <li>
-                  <a>Learning</a>
+                  <a href="learningblogs">Learning</a>
                 </li>
                 <li>
-                  <a>Life</a>
+                  <a href="personalblogs">Life</a>
                 </li>
               </ul>
             </details>
           </li>
           <li>
-            <a>Events</a>
+            <a href="events">Events</a>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Resume</a>
+        <a href="cv" className="btn">
+          Resume
+        </a>
       </div>
     </div>
   );

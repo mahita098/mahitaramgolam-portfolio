@@ -8,8 +8,11 @@ import {
   Routes,
 } from "react-router-dom";
 import App from "./pages/App.jsx";
-import Blogs from "./pages/Blogs";
+import PersonalBlogs from "./pages/PersonalBlogs";
+import LearningBlogs from "./pages/LearningBlogs";
 import Events from "./pages/Events";
+import Projects from "./pages/Projects";
+import Cv from "./pages/Cv";
 
 const router = createBrowserRouter([
   {
@@ -17,8 +20,24 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "blogs",
-    element: <Blogs />,
+    path: "personalblogs",
+    element: <PersonalBlogs />,
+  },
+  {
+    path: "learningblogs",
+    element: <LearningBlogs />,
+  },
+  {
+    path: "events",
+    element: <Events />,
+  },
+  {
+    path: "cv",
+    element: <Cv />,
+  },
+  {
+    path: "projects",
+    element: <Projects />,
   },
 ]);
 

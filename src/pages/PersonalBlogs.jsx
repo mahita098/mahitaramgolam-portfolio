@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 
-export default function Blogs() {
+export default function PersonalBlogs() {
   return (
     <div>
       <Header />
