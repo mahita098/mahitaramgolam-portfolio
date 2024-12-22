@@ -1,15 +1,21 @@
 import Header from "../components/Header";
+import ProjectCards from "../components/ProjectCards";
 
 export default function Projects() {
   return (
-    <div>
+    <div className="hero min-h-screen mt-3 mx-auto w-full">
       <Header />
-      <div className="mt-10">
-        <h2 className="text-white">Projects</h2>
-        <h2 className="text-white">Projects</h2>
-        <h2 className="text-white">Projects</h2>
-
-        <h2 className="text-white">Projects</h2>
+      <div className="container">
+        <div className="flex justify-between mx-auto max-w-7xl">
+          <ProjectCards
+            projlink="https://mahitaramgolam.netlify.app"
+            projimage="../skz.jpg"
+            projtitle="dot"
+            projdescription="dot dot"
+          />
+          <ProjectCards />
+          <ProjectCards />
+        </div>
       </div>
     </div>
   );

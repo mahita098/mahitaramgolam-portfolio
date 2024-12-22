@@ -3,13 +3,13 @@ import Header from "../components/Header";
 
 export default function App() {
   return (
-    <div className="hero bg-base-200 min-h-screen">
+    <div className="hero min-h-screen">
       <Header />
       <div className="hero-content flex flex-col lg:flex-row gap-6">
-        <div className="flex-col">
+        <div className="flex-col h-80 ">
           <img
             src="../me4.jpg"
-            className="max-w-72 rounded-full shadow-2xl mb-2"
+            className="max-w-64 rounded-full shadow-2xl mb-2"
           />
           <div className="flex gap-2 justify-center">
             <a href="https://github.com/mahita098" target="_blank">
@@ -107,21 +107,21 @@ export default function App() {
           </div>
         </div>
 
-        <div>
+        <div className="flex flex-col justify-between h-80 overflow-auto">
           <h1 className="text-5xl font-bold">
             Hi, i’m Mahita,<br></br>
             <span className="text-5xl font-bold">a Front-end Developer.</span>
           </h1>
-          <p className="py-6">
-            I’m self-motivated and eager for new challenges. I've just completed
-            my University studies and is currently seeking a position to
-            contribute my skills and gain experience in the IT industry. I am
-            extremely passionate about Front-end Development. I gained interest
-            in learning coding during lockdown period. I have learned and build
-            personal projects to improve my basics on HTML/ CSS/ JS and more. I
-            want continue to learning coding in a tech company.
+          <p className="">
+            I’m self-motivated and eager for new challenges. As a Junior
+            Frontend developer with a strong foundation in web development and a
+            keen desire to grow, I am eager to deepen my skills in frameworks
+            like Vue.js and React.js . I am a self taught web developer and i am
+            extremely passionate about Front-end Development. I have learned and
+            build personal projects to improve my basics on HTML/ CSS/ JS and
+            more.
           </p>
-          <button className="btn btn-primary">Projects</button>
+          <button className="btn btn-primary w-fit">Projects</button>
         </div>
       </div>
     </div>

@@ -3,11 +3,12 @@ import BlogCards from "../components/BlogCards";
 
 export default function PersonalBlogs() {
   return (
-    <div className="hero bg-base-200 min-h-screen mt-3 mx-auto w-full">
+    <div className="hero min-h-screen mt-3 mx-auto w-full">
       <Header />
       <div className="container">
-        <div className="flex justify-between">
+        <div className="flex justify-between mx-auto max-w-7xl">
           <BlogCards
+            link="#"
             image="../skz.jpg"
             title="travel to australia"
             description="hello hello"

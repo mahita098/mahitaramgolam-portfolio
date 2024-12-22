@@ -2,7 +2,7 @@ import Header from "../components/Header";
 
 export default function Cv() {
   return (
-    <div>
+    <div className="hero min-h-screen mt-3 mx-auto w-full">
       <Header />
 
       <h2 className="text-white">Curriculum vitae</h2>
