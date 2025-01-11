@@ -13,7 +13,7 @@ import LearningBlogs from "./pages/LearningBlogs";
 import Events from "./pages/Events";
 import Projects from "./pages/Projects";
 import Cv from "./pages/Cv";
-import CatProj from "./pages/CatProj.jsx";
+import CatProj from "./pages/CatProj";
 
 const router = createBrowserRouter([
   {
