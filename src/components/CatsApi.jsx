@@ -15,7 +15,12 @@ export default function CatsApi() {
   }, []);
 
   const fetchCatFact = () => {
-    Axios.get("/api/fetchCatFact")
+    const apiUrl =
+      process.env.NODE_ENV === "production"
+        ? "/api/fetchCatFact"
+        : "https://catfact.ninja/fact";
+
+    Axios.get(apiUrl)
       .then((res) => {
         setCatFact(res.data.fact);
       })
