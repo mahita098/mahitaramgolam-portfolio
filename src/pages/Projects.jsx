@@ -9,9 +9,9 @@ export default function Projects() {
         <div className="flex justify-between mx-auto max-w-7xl">
           <ProjectCards
             projlink="https://mahitaramgolam.netlify.app"
-            projimage="../skz.jpg"
-            projtitle="dot"
-            projdescription="dot dot"
+            projimage="../2ndportfolio.png"
+            projtitle="My Porfolio"
+            projdescription="A framework free project "
           />
           <ProjectCards />
           <ProjectCards />

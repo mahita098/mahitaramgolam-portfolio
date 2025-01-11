@@ -13,11 +13,16 @@ import LearningBlogs from "./pages/LearningBlogs";
 import Events from "./pages/Events";
 import Projects from "./pages/Projects";
 import Cv from "./pages/Cv";
+import CatProj from "./pages/CatProj.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "catproject",
+    element: <CatProj />,
   },
   {
     path: "personalblogs",

@@ -33,10 +33,13 @@ export default function Header() {
 
               <ul className="p-2">
                 <li>
-                  <a>Learning</a>
+                  <a href="learningblogs">Learning</a>
                 </li>
                 <li>
-                  <a>Life</a>
+                  <a href="personalblogs">Life</a>
+                </li>
+                <li>
+                  <a href="catproject">Cats</a>
                 </li>
               </ul>
             </li>
@@ -79,6 +82,9 @@ export default function Header() {
                 </li>
                 <li>
                   <a href="personalblogs">Life</a>
+                </li>
+                <li>
+                  <a href="catproject">Cats</a>
                 </li>
               </ul>
             </details>

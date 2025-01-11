@@ -1,10 +1,11 @@
 import Header from "../components/Header";
+import CatsApi from "../components/CatsApi";
 
-export default function Events() {
+export default function CatProj() {
   return (
     <div className="hero min-h-screen mt-3 mx-auto w-full">
       <Header />
-      <h2 className="text-white">event listings</h2>
+      <CatsApi />
     </div>
   );
 }
