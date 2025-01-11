@@ -15,7 +15,7 @@ export default function CatsApi() {
   }, []);
 
   const fetchCatFact = () => {
-    Axios.get("./api/fetchCatFact")
+    Axios.get("/api/fetchCatFact")
       .then((res) => {
         setCatFact(res.data.fact);
       })
