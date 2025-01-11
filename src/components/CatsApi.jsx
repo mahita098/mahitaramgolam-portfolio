@@ -15,9 +15,13 @@ export default function CatsApi() {
   }, []);
 
   const fetchCatFact = () => {
-    Axios.get("https://catfact.ninja/fact").then((res) => {
-      setCatFact(res.data.fact);
-    });
+    Axios.get("./api/fetchCatFact")
+      .then((res) => {
+        setCatFact(res.data.fact);
+      })
+      .catch((err) => {
+        console.error("Error fetching cat fact:", err);
+      });
   };
 
   return (
