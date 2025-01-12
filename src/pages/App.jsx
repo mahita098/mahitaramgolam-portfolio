@@ -3,9 +3,9 @@ import Header from "../components/Header";
 
 export default function App() {
   return (
-    <div className="hero md:min-h-screen">
+    <div className="hero md:min-h-screen h-screen">
       <Header />
-      <div className="hero-content flex flex-col lg:flex-row gap-6 pt-16 md:pt-0">
+      <div className="hero-content flex flex-col lg:flex-row gap-6 mt-16 md:mt-0">
         <div className="flex-col pt-4 ">
           <img
             src="../me4.jpg"
@@ -103,7 +103,7 @@ export default function App() {
           </div>
         </div>
 
-        <div className="flex flex-col justify-between text-center md:text-left mx-auto space-y-6 md:space-y-6 md:pt-9 pt-0">
+        <div className="flex flex-col justify-between text-center md:text-left mx-auto space-y-4 md:space-y-6 md:pt-9 pt-0">
           <h1 className="md:text-5xl text-3xl font-bold pb-2 md:pb-0">
             Hi, i’m Mahita,<br></br>
             <span className="md:text-5xl text-3xl font-bold ">
