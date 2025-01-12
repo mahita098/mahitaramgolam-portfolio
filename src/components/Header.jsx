@@ -83,7 +83,7 @@ export default function Header() {
                 <li>
                   <a href="personalblogs">Life</a>
                 </li>
-                <li>
+                <li className="w-36">
                   <a href="catproject">Cat Facts</a>
                 </li>
               </ul>

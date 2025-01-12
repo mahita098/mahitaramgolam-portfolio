@@ -6,7 +6,11 @@ export default function PersonalBlogs() {
     <div className="hero min-h-screen mt-3 mx-auto w-full">
       <Header />
       <div className="container">
-        <div className="flex justify-between mx-auto max-w-7xl">
+        <p className="flex justify-center md:justify-between items-center flex-col md:flex-row mx-auto max-w-7xl mt-12">
+          Page still in progress
+        </p>
+
+        <div className="flex justify-center md:justify-between items-center flex-col md:flex-row mx-auto max-w-7xl ">
           <BlogCards
             link="#"
             image="../skz.jpg"
