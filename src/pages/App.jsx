@@ -3,9 +3,10 @@ import Header from "../components/Header";
 
 export default function App() {
   return (
-    <div className="hero md:min-h-screen h-screen">
+    <div className="md:min-h-screen min-h-screen flex items-start md:items-center justify-center">
       <Header />
-      <div className="hero-content flex flex-col lg:flex-row gap-6 mt-16 md:mt-0">
+
+      <div className="hero-content flex flex-col lg:flex-row gap-6 pt-16 md:pt-0">
         <div className="flex-col pt-4 ">
           <img
             src="../me4.jpg"
