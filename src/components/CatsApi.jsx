@@ -30,13 +30,15 @@ export default function CatsApi() {
   };
 
   return (
-    <div className="text-center">
-      <p>Cat Facts data fetched from API </p>
+    <div className="text-center mx-5">
+      <p className="text-xs text-yellow-400 p-3">
+        Cat Facts data fetched from API
+      </p>
       <button
-        className="w-48 mx-auto bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+        className="w-56 mx-auto bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
         onClick={fetchCatFact}
       >
-        Generate Cat Fact
+        Generate Some Cat Facts
       </button>
       <p className="text-white mt-3">{catFact}</p>
     </div>
