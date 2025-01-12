@@ -6,12 +6,12 @@ export default function Projects() {
     <div className="hero min-h-screen mt-3 mx-auto w-full">
       <Header />
       <div className="container">
-        <div className="flex justify-between mx-auto max-w-7xl">
+        <div className="flex justify-center md:justify-between items-center flex-col md:flex-row mx-auto max-w-7xl mt-12">
           <ProjectCards
             projlink="https://mahitaramgolam.netlify.app"
             projimage="../2ndportfolio.png"
-            projtitle="My Porfolio"
-            projdescription="A framework free project "
+            projtitle="Porfolio"
+            projdescription="Build with only Html/Css/Js"
           />
           <ProjectCards />
           <ProjectCards />
