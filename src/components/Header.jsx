@@ -26,7 +26,7 @@ export default function Header() {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Projects</a>
+              <a href="projects">Projects</a>
             </li>
             <li>
               <a>Blogs</a>
@@ -39,7 +39,7 @@ export default function Header() {
                   <a href="personalblogs">Life</a>
                 </li>
                 <li>
-                  <a href="catproject">Cats</a>
+                  <a href="catproject">Cat Facts</a>
                 </li>
               </ul>
             </li>
@@ -76,7 +76,7 @@ export default function Header() {
                   />
                 </svg>
               </summary>
-              <ul className="p-2">
+              <ul className="p-4">
                 <li>
                   <a href="learningblogs">Learning</a>
                 </li>
@@ -84,7 +84,7 @@ export default function Header() {
                   <a href="personalblogs">Life</a>
                 </li>
                 <li>
-                  <a href="catproject">Cats</a>
+                  <a href="catproject">Cat Facts</a>
                 </li>
               </ul>
             </details>

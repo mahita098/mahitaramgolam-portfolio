@@ -3,19 +3,18 @@ import Header from "../components/Header";
 
 export default function App() {
   return (
-    <div className="hero min-h-screen">
+    <div className="hero md:min-h-screen">
       <Header />
-      <div className="hero-content flex flex-col lg:flex-row gap-6">
-        <div className="flex-col h-80 ">
+      <div className="hero-content flex flex-col lg:flex-row gap-6 pt-16 md:pt-0">
+        <div className="flex-col pt-4 ">
           <img
             src="../me4.jpg"
-            className="max-w-64 rounded-full shadow-2xl mb-2"
+            className="md:max-w-64 max-w-40 rounded-full shadow-2xl mb-2"
           />
-          <div className="flex gap-2 justify-center">
+          <div className="flex gap-2 justify-center ">
             <a href="https://github.com/mahita098" target="_blank">
               <svg
-                width="43"
-                height="41"
+                className="md:w-10 w-6 md:h-10 h-6"
                 viewBox="0 0 39 37"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,8 +40,7 @@ export default function App() {
               target="_blank"
             >
               <svg
-                width="43"
-                height="39"
+                className="md:w-10 w-6 md:h-10 h-6"
                 viewBox="0 0 21 21"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -58,8 +56,7 @@ export default function App() {
               target="_blank"
             >
               <svg
-                width="39"
-                height="40"
+                className="md:w-10 w-6 md:h-10 h-6"
                 viewBox="0 0 45 45"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -92,8 +89,7 @@ export default function App() {
               target="_blank"
             >
               <svg
-                width="40"
-                height="40"
+                className="md:w-10 w-6 md:h-10 h-6"
                 viewBox="0 0 13 22"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -107,10 +103,12 @@ export default function App() {
           </div>
         </div>
 
-        <div className="flex flex-col justify-between h-80 overflow-auto">
-          <h1 className="text-5xl font-bold">
+        <div className="flex flex-col justify-between text-center md:text-left mx-auto space-y-6 md:space-y-6 md:pt-9 pt-0">
+          <h1 className="md:text-5xl text-3xl font-bold pb-2 md:pb-0">
             Hi, i’m Mahita,<br></br>
-            <span className="text-5xl font-bold">a Front-end Developer.</span>
+            <span className="md:text-5xl text-3xl font-bold ">
+              a Front-end Developer.
+            </span>
           </h1>
           <p className="">
             I’m self-motivated and eager for new challenges. As a Junior
@@ -121,7 +119,9 @@ export default function App() {
             build personal projects to improve my basics on HTML/ CSS/ JS and
             more.
           </p>
-          <button className="btn btn-primary w-fit">Projects</button>
+          <button className="btn btn-primary w-fit mx-auto md:mx-0 md:self-start">
+            Projects
+          </button>
         </div>
       </div>
     </div>
