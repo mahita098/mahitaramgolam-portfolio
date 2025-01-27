@@ -1,5 +1,6 @@
 import Axios from "axios";
 import { useEffect, useState } from "react";
+import Cat from "/Cat.png";
 
 export default function CatsApi() {
   //fetch("https://catfact.ninja/fact")
@@ -31,6 +32,7 @@ export default function CatsApi() {
 
   return (
     <div className="text-center mx-5">
+      <img className="w-[70px] mx-auto" src={Cat} alt="" />
       <p className="text-xs text-yellow-400 p-3">
         Cat Facts data fetched from API
       </p>

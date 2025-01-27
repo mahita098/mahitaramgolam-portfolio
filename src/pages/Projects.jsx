@@ -16,8 +16,18 @@ export default function Projects() {
             projtitle="Porfolio"
             projdescription="Build with only Html/Css/Js"
           />
-          <ProjectCards />
-          <ProjectCards />
+          <ProjectCards
+            projlink="https://to-do-list-hooks.vercel.app/"
+            projimage="../todolist.png"
+            projtitle="TodoList"
+            projdescription="Build with ReactJs/TailwindCSS"
+          />
+          <ProjectCards
+            projlink="https://mahitaprofile.vercel.app/catproject"
+            projimage="../catfactapi.png"
+            projtitle="Cat Facts"
+            projdescription="Build with ReactJs/TailwindCSS"
+          />
         </div>
       </div>
     </div>
