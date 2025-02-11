@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import ProjectCards from "../components/ProjectCards";
+import Footer from "../components/Footer";
 import { useState, useEffect } from "react";
 
 export default function Projects() {
@@ -36,6 +37,7 @@ export default function Projects() {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

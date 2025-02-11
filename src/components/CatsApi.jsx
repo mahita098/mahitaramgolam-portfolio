@@ -31,7 +31,7 @@ export default function CatsApi() {
   };
 
   return (
-    <div className="text-center mx-5">
+    <div className="text-center mx-5 hero-content w-full flex flex-1 flex-col lg:flex-col">
       <img className="w-[70px] mx-auto" src={Cat} alt="" />
       <p className="text-xs text-yellow-400 p-3">
         Cat Facts data fetched from API
