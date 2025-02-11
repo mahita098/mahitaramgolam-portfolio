@@ -24,9 +24,12 @@ export default function Projects() {
     <div className="hero min-h-screen mt-3 mx-auto w-full">
       <Header />
       <div className="container">
-        <p className="flex justify-center md:justify-between items-center flex-col md:flex-row mx-auto max-w-7xl mt-12">
-          Page still in progress
-        </p>
+        <div className="flex justify-center items-center flex-col  mx-auto max-w-7xl mt-20 mb-8">
+          <h1 className="text-white font-bold text-5xl">My Work</h1>
+          <p className=" mt-2 text-lg">
+            A collection of projects I've worked on.
+          </p>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 items-center mx-auto max-w-7xl gap-2">
           {data.map((project, index) => (
             <ProjectCards key={index} {...project} />

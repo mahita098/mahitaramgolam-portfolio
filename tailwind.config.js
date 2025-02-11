@@ -8,6 +8,6 @@ export default {
   },
   plugins: [daisyui],
   daisyui: {
-    themes: ["retro", "dark", "cupcake"],
+    themes: ["coffee", "sunset", "cyberpunk"],
   },
 };
