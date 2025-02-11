@@ -1,3 +1,6 @@
+import { ChakraProvider } from "@chakra-ui/react";
+import { system } from "@chakra-ui/react/preset";
+
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
@@ -48,6 +51,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <ChakraProvider value={system}>
+      <RouterProvider router={router} />
+    </ChakraProvider>
   </StrictMode>
 );

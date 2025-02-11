@@ -1,16 +1,58 @@
-import { useState } from "react";
+import React from "react";
+import { Badge, Box, Button, Card, HStack, Image } from "@chakra-ui/react";
 
-export default function ProjectCards(projectprop) {
+const ProjectCards = ({
+  projlink,
+  projtitle,
+  projdescription,
+  projimage,
+  projtags,
+}) => {
   return (
-    <div className="cards w-60 md:w-80 pb-4 shadow-[0px_1px_7px_3px_#718096] mt-3 mb-5 rounded">
-      <a href={projectprop.projlink} target="_blank" rel="noopener noreferrer">
-        <img
-          className="w-full h-[200px] object-cover rounded-lg object-fit"
-          src={projectprop.projimage}
-        />
-        <p className="m-2">{projectprop.projtitle}</p>
-        <p className="mx-2">{projectprop.projdescription}</p>
+    <div className="cards pb-4 mt-3 mb-5">
+      <a href={projlink}>
+        <Card.Root flexDirection="row" overflow="hidden" maxW="xl" minH="200px">
+          <Image
+            objectFit="cover"
+            maxW="240px"
+            src={projimage}
+            alt="Caffe Latte"
+          />
+          <Box>
+            <Card.Body>
+              <div className="flex justify-between items-baseline">
+                <Card.Title mb="2">{projtitle}</Card.Title>
+                <Button src={projlink}>
+                  Visit Website{" "}
+                  <svg
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </Button>
+              </div>
+
+              <Card.Description>{projdescription}</Card.Description>
+              <HStack className="flex flex-wrap" mt="4">
+                {projtags.map((tag, index) => {
+                  return <Badge key={index}>{tag}</Badge>;
+                })}
+              </HStack>
+            </Card.Body>
+          </Box>
+        </Card.Root>
       </a>
     </div>
   );
-}
+};
+
+export default ProjectCards;

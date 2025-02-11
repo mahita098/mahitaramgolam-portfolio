@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Button } from "@chakra-ui/react";
 
 export default function BlogCards(blogprop) {
   console.log(blogprop);
@@ -13,6 +14,7 @@ export default function BlogCards(blogprop) {
           <p>{blogprop.title}</p>
           <p>{blogprop.description}</p>
         </a>
+        <Button className="bg-slate-600 p-2">Read More</Button>
       </div>
     </div>
   );
