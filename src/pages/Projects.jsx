@@ -24,7 +24,8 @@ export default function Projects() {
   return (
     <div className="hero min-h-screen mt-3 mx-auto w-full">
       <Header />
-      <div className="container">
+
+      <div className="container mb-24">
         <div className="flex justify-center items-center flex-col  mx-auto max-w-7xl mt-20 mb-8">
           <h1 className="text-white font-bold text-5xl">My Work</h1>
           <p className=" mt-2 text-lg">
