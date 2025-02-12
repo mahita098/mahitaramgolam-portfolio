@@ -9,12 +9,18 @@ const ProjectCards = ({
   projtags,
 }) => {
   return (
-    <div className="cards pb-4 mt-3 mb-5">
+    <div className="cards pb-4 mt-3 mb-5 px-5 md:px-0">
       <a href={projlink}>
-        <Card.Root flexDirection="row" overflow="hidden" maxW="xl" minH="200px">
+        <Card.Root
+          flexDirection={{ base: "column", md: "row" }}
+          overflow="hidden"
+          maxW="xl"
+          minH="200px"
+          className=" border border-cyan-50"
+        >
           <Image
             objectFit="cover"
-            maxW="240px"
+            maxW={{ base: "400px", md: "240px" }}
             src={projimage}
             alt="Caffe Latte"
           />

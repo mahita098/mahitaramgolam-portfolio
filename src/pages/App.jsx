@@ -1,8 +1,8 @@
-import { useState } from "react";
+import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-export default function App() {
+const App = () => {
   return (
     <div className="md:min-h-screen min-h-screen flex flex-col items-center justify-center">
       <Header />
@@ -122,11 +122,13 @@ export default function App() {
             more.
           </p>
           <button className="btn btn-primary w-fit mx-auto md:mx-0 md:self-start">
-            Projects
+            <a href="projects">Projects</a>
           </button>
         </div>
       </div>
       <Footer />
     </div>
   );
-}
+};
+
+export default App;
