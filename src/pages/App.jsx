@@ -1,8 +1,29 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { useState, useEffect } from "react";
+
+const stackDescriptions = [
+  "NextJS, ReactJS, TailwindCSS",
+  "VScode, Figma, Git",
+  "HTML, SCSS, JS",
+];
+
+function genRandomInt(max) {
+  return Math.floor(Math.random() * (max + 1));
+}
 
 const App = () => {
+  const [stack, setStack] = useState(stackDescriptions[genRandomInt(2)]);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setStack(stackDescriptions[genRandomInt(2)]);
+    }, 2000); // Update every 2 seconds
+
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, []);
+
   return (
     <div className="md:min-h-screen min-h-screen flex flex-col items-center justify-center">
       <Header />
@@ -106,18 +127,19 @@ const App = () => {
             </div>
           </div>
 
-          <div className="flex flex-col justify-evenly text-center md:text-left mx-auto space-y-4 md:space-y-6 md:pt-9 pt-0  h-full">
+          <div className="flex flex-col justify-evenly text-center md:text-left mx-auto space-y-4 md:space-y-3  md:pt-9 pt-0  h-full">
             <h1 className="md:text-5xl text-3xl font-bold pb-2 md:pb-0 bg-gradient-to-br bg-clip-text text-transparent from-[#ffff] via-[#ffb38a] to-[#ff6700]">
               Hi, i’m Mahita,<br></br>
               <span className="md:text-5xl text-3xl font-bold ">
                 a Front-end Developer.
               </span>
             </h1>
-            <p className="text-2xl">
+            <p className="text-2xl mt-0">
               Learning, improving and building beautiful and interactive
               websites. I’m constantly driven to expand my knowledge and enhance
               my frontend skills.
             </p>
+            <p className="font-semibold">TechStacks : {stack}</p>
             <button className="btn btn-primary w-fit mx-auto md:mx-0 md:self-start">
               <a href="projects">Projects</a>
             </button>
