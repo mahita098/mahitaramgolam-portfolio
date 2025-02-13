@@ -46,6 +46,24 @@ export default function Header() {
             <li>
               <a>Event</a>
             </li>
+
+            <li>
+              <label class="flex cursor-pointer gap-2">
+                <span class="label-text">Theme</span>
+                <input
+                  onClick={() =>
+                    document.documentElement.setAttribute(
+                      "data-theme",
+                      "forest"
+                    )
+                  }
+                  type="checkbox"
+                  value="forest"
+                  class="toggle theme-controller"
+                />
+                <span class="label-text">Forest</span>
+              </label>
+            </li>
           </ul>
         </div>
         <a href="/" className="btn btn-ghost text-xl">

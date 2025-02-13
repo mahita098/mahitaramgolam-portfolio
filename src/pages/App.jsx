@@ -128,7 +128,7 @@ const App = () => {
           </div>
 
           <div className="flex flex-col justify-evenly text-center md:text-left mx-auto space-y-4 md:space-y-3  md:pt-9 pt-0  h-full">
-            <h1 className="md:text-5xl text-3xl font-bold pb-2 md:pb-0 bg-gradient-to-br bg-clip-text text-transparent from-[#ffff] via-[#ffb38a] to-[#ff6700]">
+            <h1 className="md:text-5xl text-3xl font-bold pb-2 md:pb-0 bg-gradient-to-br bg-clip-text text-transparent from-gradient-start via-gradient-mid to-gradient-end">
               Hi, i’m Mahita,<br></br>
               <span className="md:text-5xl text-3xl font-bold ">
                 a Front-end Developer.
