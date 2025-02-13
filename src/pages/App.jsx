@@ -19,9 +19,9 @@ const App = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setStack(stackDescriptions[genRandomInt(2)]);
-    }, 2000); // Update every 2 seconds
+    }, 2000);
 
-    return () => clearInterval(interval); // Cleanup on unmount
+    return () => clearInterval(interval);
   }, []);
 
   return (
