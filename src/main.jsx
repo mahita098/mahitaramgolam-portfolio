@@ -16,7 +16,7 @@ import LearningBlogs from "./pages/LearningBlogs";
 import Events from "./pages/Events";
 import Projects from "./pages/Projects";
 import Cv from "./pages/Cv";
-import CatProj from "./pages/CatProj";
+import CatProj from "./pages/CatProj.1.jsx";
 
 const router = createBrowserRouter([
   {

@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function Header() {
   return (
-    <div className="navbar mx-auto max-w-7xl fixed top-0 z-10 bg-[#121c22]">
+    <div className="navbar mx-auto max-w-7xl fixed top-0 z-10  ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -91,6 +91,64 @@ export default function Header() {
           </li>
           <li>
             <a href="events">Events</a>
+          </li>
+          <li>
+            <div class="dropdown m-0 p-0">
+              <div tabindex="0" role="button" class="btn h-0 min-h-9">
+                Theme
+                <svg
+                  width="12px"
+                  height="12px"
+                  class="inline-block h-2 w-2 fill-current opacity-60"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 2048 2048"
+                >
+                  <path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path>
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="dropdown-content bg-base-300 rounded-box z-[1] w-52 p-2 shadow-2xl top-12"
+              >
+                <li>
+                  <input
+                    type="radio"
+                    name="theme-dropdown"
+                    class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+                    aria-label="Default"
+                    value="default"
+                  />
+                </li>
+                <li>
+                  <input
+                    type="radio"
+                    name="theme-dropdown"
+                    class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+                    aria-label="Night"
+                    value="night"
+                  />
+                </li>
+
+                <li>
+                  <input
+                    type="radio"
+                    name="theme-dropdown"
+                    class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+                    aria-label="Forest"
+                    value="forest"
+                  />
+                </li>
+                <li>
+                  <input
+                    type="radio"
+                    name="theme-dropdown"
+                    class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+                    aria-label="Coffee"
+                    value="coffee"
+                  />
+                </li>
+              </ul>
+            </div>
           </li>
         </ul>
       </div>
