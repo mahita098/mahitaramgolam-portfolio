@@ -5,13 +5,15 @@
       "projimage": "../newprofile.png",
       "projtitle": "My Porfolio",
       "projdescription": "My own portfolio to showcase my work",
-      "projtags": ["React", "TailwindCSS", "ChakraUI", "DaisyUI", "Vite"]
+      "projgit": "https://github.com/mahita098/mahitaramgolam-portfolio",
+      "projtags": ["ReactJS", "TailwindCSS", "ChakraUI", "DaisyUI", "Vite"]
     },
     {
       "projlink": "https://mahitaramgolam.netlify.app",
       "projimage": "../2ndportfolio.png",
       "projtitle": "My Old Porfolio",
       "projdescription": "Build with only Html/Css/Js",
+      "projgit": "https://github.com/mahita098/mahita-portfolio",
       "projtags": ["Html", "Css", "Javascript"]
     },
     {
@@ -19,27 +21,39 @@
       "projimage": "../todolist.png",
       "projtitle": "TodoList",
       "projdescription": "Build with ReactJs/TailwindCSS",
-      "projtags": ["React", "TailwindCSS", "Vite"]
+      "projgit": "https://github.com/mahita098/to-do-list-hooks",
+      "projtags": ["ReactJS", "TailwindCSS", "Vite"]
     },
     {
       "projlink": "https://office-ag.netlify.app/",
       "projimage": "../office-ag.png",
       "projtitle": "An agency website",
-      "projdescription": "",
-      "projtags": ["Statis", "Html", "CSS", "JS"]
+      "projdescription": "Learning how to build website while focusing on Flexbox and Grid",
+      "projgit": "https://github.com/mahita098/office-ag",
+      "projtags": ["Static", "Html", "CSS", "JS"]
     },
     {
       "projlink": "https://figma-landing-page-figma.netlify.app/",
       "projimage": "../figmalandingpage.png",
       "projtitle": "A pretty corporate website",
-      "projdescription": "",
-      "projtags": ["HTML", "SCSS", "Static", "Responsive"]
+      "projdescription": "Build this website as a test for a company i was being interviewed",
+      "projgit": "https://github.com/mahita098/test-frontend-landing-page",
+      "projtags": ["HTML", "SCSS", "Bootstrap", "Static"]
+    },
+    {
+      "projlink": "https://web-test-mahi.netlify.app/",
+      "projimage": "../web-test.png",
+      "projtitle": "A pretty business website",
+      "projdescription": "Build this website as a test for a company i was being interviewed",
+      "projgit": "https://github.com/mahita098/web-test",
+      "projtags": ["Static", "HTML", "SCSS", "JS"]
     },
     {
       "projlink": "",
       "projimage": "",
       "projtitle": "",
       "projdescription": "",
+      "projgit": "",
       "projtags": ["", ""]
     },
     {
@@ -47,6 +61,7 @@
       "projimage": "",
       "projtitle": "",
       "projdescription": "",
+      "projgit": "",
       "projtags": ["", ""]
     },
     {
@@ -54,6 +69,7 @@
       "projimage": "",
       "projtitle": "",
       "projdescription": "",
+      "projgit": "",
       "projtags": ["", ""]
     },
     {
@@ -61,13 +77,7 @@
       "projimage": "",
       "projtitle": "",
       "projdescription": "",
-      "projtags": ["", ""]
-    },
-    {
-      "projlink": "",
-      "projimage": "",
-      "projtitle": "",
-      "projdescription": "",
+      "projgit": "",
       "projtags": ["", ""]
     }
   ]
