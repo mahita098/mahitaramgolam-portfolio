@@ -7,9 +7,3 @@
   /* Hide the default arrow */
   display: none;
 }
-
-@media screen and (max-width: 786px) {
-  .chakra-card__root {
-    -webkit-flex-direction: column;
-  }
-}

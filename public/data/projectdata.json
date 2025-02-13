@@ -3,14 +3,14 @@
     {
       "projlink": "https://mahitaprofile.vercel.app/",
       "projimage": "../newprofile.png",
-      "projtitle": "Porfolio",
+      "projtitle": "My Porfolio",
       "projdescription": "My own portfolio to showcase my work",
       "projtags": ["React", "TailwindCSS", "ChakraUI", "DaisyUI", "Vite"]
     },
     {
       "projlink": "https://mahitaramgolam.netlify.app",
       "projimage": "../2ndportfolio.png",
-      "projtitle": "Porfolio",
+      "projtitle": "My Old Porfolio",
       "projdescription": "Build with only Html/Css/Js",
       "projtags": ["Html", "Css", "Javascript"]
     },
@@ -22,18 +22,53 @@
       "projtags": ["React", "TailwindCSS", "Vite"]
     },
     {
+      "projlink": "https://office-ag.netlify.app/",
+      "projimage": "../office-ag.png",
+      "projtitle": "An agency website",
+      "projdescription": "",
+      "projtags": ["Statis", "Html", "CSS", "JS"]
+    },
+    {
+      "projlink": "https://figma-landing-page-figma.netlify.app/",
+      "projimage": "../figmalandingpage.png",
+      "projtitle": "A pretty corporate website",
+      "projdescription": "",
+      "projtags": ["HTML", "SCSS", "Static", "Responsive"]
+    },
+    {
       "projlink": "",
       "projimage": "",
       "projtitle": "",
       "projdescription": "",
-      "projtags": ["React", "TailwindCSS"]
+      "projtags": ["", ""]
     },
     {
-      "projlink": "https://to-do-list-hooks.vercel.app/",
-      "projimage": "../todolist.png",
-      "projtitle": "TodoList",
-      "projdescription": "Build with ReactJs/TailwindCSS",
-      "projtags": ["React", "TailwindCSS"]
+      "projlink": "",
+      "projimage": "",
+      "projtitle": "",
+      "projdescription": "",
+      "projtags": ["", ""]
+    },
+    {
+      "projlink": "",
+      "projimage": "",
+      "projtitle": "",
+      "projdescription": "",
+      "projtags": ["", ""]
+    },
+    {
+      "projlink": "",
+      "projimage": "",
+      "projtitle": "",
+      "projdescription": "",
+      "projtags": ["", ""]
+    },
+    {
+      "projlink": "",
+      "projimage": "",
+      "projtitle": "",
+      "projdescription": "",
+      "projtags": ["", ""]
     }
   ]
 }
