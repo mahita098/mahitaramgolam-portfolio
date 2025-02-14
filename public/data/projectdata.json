@@ -24,6 +24,15 @@
       "projgit": "https://github.com/mahita098/to-do-list-hooks",
       "projtags": ["ReactJS", "TailwindCSS", "Vite"]
     },
+
+    {
+      "projlink": "https://catfacts-olive.vercel.app",
+      "projimage": "../catfacts.png",
+      "projtitle": "Cat Facts",
+      "projdescription": "Learning APIs - Now you can Generate some fun cat Facts",
+      "projgit": "https://github.com/mahita098/cats-api",
+      "projtags": ["ReactJS", "TailwindCSS"]
+    },
     {
       "projlink": "https://figma-landing-page-figma.netlify.app/",
       "projimage": "../figmalandingpage.png",
