@@ -25,14 +25,6 @@
       "projtags": ["ReactJS", "TailwindCSS", "Vite"]
     },
     {
-      "projlink": "https://office-ag.netlify.app/",
-      "projimage": "../office-ag.png",
-      "projtitle": "An agency website",
-      "projdescription": "Learning how to build website while focusing on Flexbox and Grid",
-      "projgit": "https://github.com/mahita098/office-ag",
-      "projtags": ["Static", "Html", "CSS", "JS"]
-    },
-    {
       "projlink": "https://figma-landing-page-figma.netlify.app/",
       "projimage": "../figmalandingpage.png",
       "projtitle": "A pretty corporate website",
@@ -49,36 +41,61 @@
       "projtags": ["Static", "HTML", "SCSS", "JS"]
     },
     {
-      "projlink": "",
-      "projimage": "",
-      "projtitle": "",
-      "projdescription": "",
-      "projgit": "",
-      "projtags": ["", ""]
+      "projlink": "https://power-outage-somewhere.netlify.app/",
+      "projimage": "..//Power Outage.png",
+      "projtitle": "Learning TailwindCSS",
+      "projdescription": "Build while learning TailwindCSS",
+      "projgit": "https://github.com/mahita098/power-outage-somewhere",
+      "projtags": ["TailwindCSS", "Static"]
+    },
+
+    {
+      "projlink": "https://office-ag.netlify.app/",
+      "projimage": "../office-ag.png",
+      "projtitle": "An agency website",
+      "projdescription": "Learning how to build website while focusing on Flexbox and Grid",
+      "projgit": "https://github.com/mahita098/office-ag",
+      "projtags": ["Html", "CSS", "JS", "Carousels"]
     },
     {
-      "projlink": "",
-      "projimage": "",
-      "projtitle": "",
-      "projdescription": "",
-      "projgit": "",
-      "projtags": ["", ""]
+      "projlink": "invoices-work.netlify.app",
+      "projimage": "../invoices.png",
+      "projtitle": "An Invoice",
+      "projdescription": "Just an invoice using html css",
+      "projgit": "https://github.com/mahita098/invoices",
+      "projtags": ["HTML", "CSS", "Static"]
     },
     {
-      "projlink": "",
-      "projimage": "",
-      "projtitle": "",
-      "projdescription": "",
-      "projgit": "",
-      "projtags": ["", ""]
+      "projlink": "https://xyzab-page.netlify.app/",
+      "projimage": "../project1.png",
+      "projtitle": "XYZAB",
+      "projdescription": "Building for practicing, i was so proud of myself 😂",
+      "projgit": "https://github.com/mahita098/xyzab",
+      "projtags": ["HTML", "Css", "Not Responsive", "2022"]
     },
     {
-      "projlink": "",
-      "projimage": "",
-      "projtitle": "",
-      "projdescription": "",
-      "projgit": "",
-      "projtags": ["", ""]
+      "projlink": "https://google-homepage-phi-lac.vercel.app/",
+      "projimage": "../google.png",
+      "projtitle": "Google Homepage!",
+      "projdescription": "Homework- build google homepage",
+      "projgit": "https://github.com/mahita098/Google-Homepage",
+      "projtags": ["HTML", "CSS"]
+    },
+    {
+      "projlink": "https://twitter-upcode-challenge.netlify.app/",
+      "projimage": "..//mahi-twitter.png",
+      "projtitle": "Tried Twitter!",
+      "projdescription": "Upcode practice work - build twitter timeline",
+      "projgit": "https://github.com/mahita098/twitter-page-upcode",
+      "projtags": ["HTML", "CSS", "Upcode.mu"]
+    },
+    {
+      "projlink": "https://mahitaramgolam.netlify.app/projects",
+      "projimage": "../practice.jpg",
+      "projtitle": "More Beginner Projects",
+      "projdescription": "In my old portfolio you can find many more project i build to pratice my html/css",
+
+      "projtags": ["Practice", "Building", "Coding"]
     }
   ]
 }

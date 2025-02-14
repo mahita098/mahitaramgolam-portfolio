@@ -31,7 +31,8 @@ export default function Projects() {
             My Work
           </h1>
           <p className=" mt-2 text-lg">
-            A collection of projects I've worked on.
+            A collection of projects I've worked on while learning, practicing,
+            building and for fun.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 items-center mx-auto max-w-7xl gap-2">

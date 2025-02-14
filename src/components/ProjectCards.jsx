@@ -60,7 +60,7 @@ const ProjectCards = ({
                   </svg>
                 </a>
 
-                <Button src={projlink} target="_blank">
+                <Button src={projlink}>
                   Visit Website{" "}
                   <svg
                     stroke="currentColor"
