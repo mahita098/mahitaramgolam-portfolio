@@ -33,11 +33,12 @@ export default function Header() {
 
               <ul className="p-2">
                 <li>
-                  <a href="learningblogs">Learning</a>
-                </li>
-                <li>
                   <a href="personalblogs">Life</a>
                 </li>
+                <li>
+                  <a href="learningblogs">Learning</a>
+                </li>
+
                 <li>
                   <a href="catproject">Cat Facts</a>
                 </li>
@@ -96,11 +97,12 @@ export default function Header() {
               </summary>
               <ul className="p-4">
                 <li>
-                  <a href="learningblogs">Learning</a>
-                </li>
-                <li>
                   <a href="personalblogs">Life</a>
                 </li>
+                <li>
+                  <a href="learningblogs">Learning</a>
+                </li>
+
                 <li className="w-36">
                   <a href="catproject">Cat Facts</a>
                 </li>
@@ -171,7 +173,11 @@ export default function Header() {
         </ul>
       </div>
       <div className="navbar-end">
-        <a href="cv" className="btn">
+        <a
+          target="_blank"
+          href="https://mahitaramgolam.netlify.app/resume"
+          className="btn"
+        >
           Resume
         </a>
       </div>

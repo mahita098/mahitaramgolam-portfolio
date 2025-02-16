@@ -115,9 +115,7 @@ const App = () => {
             </p>
             <p className="font-semibold text-2xl">TechStacks : {stack}</p>
             <button className="btn btn-primary w-fit mx-auto md:mx-0 md:self-start">
-              <a target="_blank" href="projects">
-                Projects
-              </a>
+              <a href="projects">Projects</a>
             </button>
           </div>
         </div>

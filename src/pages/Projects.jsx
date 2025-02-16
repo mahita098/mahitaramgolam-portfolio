@@ -18,21 +18,21 @@ export default function Projects() {
   }, []);
 
   if (!data.length) {
-    return <div>Loading...</div>; // Prevent error when data is empty
+    return <div>Loading...</div>; // to prevent error when data is empty
   }
 
   return (
     <div className="hero min-h-screen mt-3 mx-auto w-full">
       <Header />
 
-      <div className="container mb-24">
+      <div className="container  mt-10 md:mt-0 mb-24 px-4 md:p-0 mx-auto">
         <div className="flex justify-center items-center flex-col  mx-auto max-w-7xl mt-20 mb-8">
           <h1 className=" font-bold text-5xl bg-gradient-to-br bg-clip-text text-transparent from-gradient-start via-gradient-mid to-gradient-end">
-            My Work
+            My Projects
           </h1>
-          <p className=" mt-2 text-lg">
+          <p className=" mt-2 text-lg text-center">
             A collection of projects I've worked on while learning, practicing,
-            building and for fun.
+            building for fun.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 items-center mx-auto max-w-7xl gap-2">

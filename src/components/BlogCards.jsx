@@ -1,21 +1,24 @@
-import { useState } from "react";
-import { Button } from "@chakra-ui/react";
+import React from "react";
 
-export default function BlogCards(blogprop) {
-  console.log(blogprop);
+const BlogCards = ({ pblogimage, pblogtitle, pblogdescription, pbloglink }) => {
   return (
-    <div>
-      <div className="cards w-60 md:w-80 pb-4 shadow-lg shadow-gray-400 mt-3 mb-5 rounded">
-        <a href={blogprop.link} target="_blank" rel="noopener noreferrer">
-          <img
-            className="w-full h-40 object-cover pb-2 rounded-lg"
-            src={blogprop.image}
-          />
-          <p>{blogprop.title}</p>
-          <p>{blogprop.description}</p>
-        </a>
-        <Button className="bg-slate-600 p-2">Read More</Button>
-      </div>
+    <div className="cards pb-4 mt-3 mb-5 px-0">
+      <a href={pbloglink}>
+        <div className="card bg-base-100 image-full w-auto md:w-96 shadow-xl">
+          <figure>
+            <img src={pblogimage} alt="sydney" />
+          </figure>
+          <div className="card-body p-8">
+            <h2 className="card-title mx-auto">{pblogtitle}</h2>
+            <p className="text-center">{pblogdescription}</p>
+            <div className="card-actions justify-end">
+              <p className="text-primary flex justify-end">16 Feb 2025</p>
+            </div>
+          </div>
+        </div>
+      </a>
     </div>
   );
-}
+};
+
+export default BlogCards;
