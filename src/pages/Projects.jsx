@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import ProjectCards from "../components/ProjectCards";
 import Footer from "../components/Footer";
+import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
 export default function Projects() {
@@ -22,7 +23,13 @@ export default function Projects() {
   }
 
   return (
-    <div className="hero min-h-screen mt-3 mx-auto w-full">
+    <motion.div
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 5 }}
+      exit={{ opacity: 0, y: -10 }}
+      transition={{ duration: 0.4 }}
+      className="hero min-h-screen mt-3 mx-auto w-full"
+    >
       <Header />
 
       <div className="container  mt-10 md:mt-0 mb-24 px-4 md:p-0 mx-auto">
@@ -42,6 +49,6 @@ export default function Projects() {
         </div>
       </div>
       <Footer />
-    </div>
+    </motion.div>
   );
 }

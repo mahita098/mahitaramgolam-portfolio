@@ -1,6 +1,8 @@
 import Header from "../components/Header";
 import BlogCards from "../components/BlogCards";
 import Footer from "../components/Footer";
+import { motion } from "framer-motion";
+
 import { useEffect, useState } from "react";
 
 export default function PersonalBlogs() {
@@ -22,7 +24,13 @@ export default function PersonalBlogs() {
   }
 
   return (
-    <div className="hero min-h-screen mt-3 mx-auto w-full">
+    <motion.div
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 5 }}
+      exit={{ opacity: 0, y: -10 }}
+      transition={{ duration: 0.4 }}
+      className="hero min-h-screen mt-3 mx-auto w-full"
+    >
       <Header />
       <div className="container mt-10 md:mt-0 mb-24 px-4 md:p-0 mx-auto">
         <div className="flex justify-center items-center flex-col  mx-auto max-w-7xl mt-10 mb-8">
@@ -43,6 +51,6 @@ export default function PersonalBlogs() {
         </div>
       </div>
       <Footer />
-    </div>
+    </motion.div>
   );
 }

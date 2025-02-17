@@ -1,15 +1,16 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import { system } from "@chakra-ui/react/preset";
-
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./index.css";
 import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
+  BrowserRouter as Router,
   Routes,
+  Route,
+  useLocation,
 } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
+import "./index.css";
 import App from "./pages/App.jsx";
 import PersonalBlogs from "./pages/PersonalBlogs";
 import LearningBlogs from "./pages/LearningBlogs";
@@ -18,41 +19,38 @@ import Projects from "./pages/Projects";
 import Cv from "./pages/Cv";
 import CatProj from "./pages/CatProj.jsx";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-  },
-  {
-    path: "catproject",
-    element: <CatProj />,
-  },
-  {
-    path: "personalblogs",
-    element: <PersonalBlogs />,
-  },
-  {
-    path: "learningblogs",
-    element: <LearningBlogs />,
-  },
-  {
-    path: "events",
-    element: <Events />,
-  },
-  {
-    path: "cv",
-    element: <Cv />,
-  },
-  {
-    path: "projects",
-    element: <Projects />,
-  },
-]);
+const AnimatedRoutes = () => {
+  const location = useLocation();
+  return (
+    <AnimatePresence mode="wait">
+      <Routes location={location} key={location.pathname}>
+        <Route path="/" element={<App />} />
+        <Route path="catproject" element={<CatProj />} />
+        <Route path="personalblogs" element={<PersonalBlogs />} />
+        <Route path="learningblogs" element={<LearningBlogs />} />
+        <Route path="events" element={<Events />} />
+        <Route path="cv" element={<Cv />} />
+        <Route path="projects" element={<Projects />} />
+      </Routes>
+    </AnimatePresence>
+  );
+};
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ChakraProvider value={system}>
-      <RouterProvider router={router} />
+      <Router>
+        <AnimatePresence mode="wait">
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.4 }}
+          >
+            <AnimatedRoutes />
+          </motion.div>
+        </AnimatePresence>
+      </Router>
     </ChakraProvider>
   </StrictMode>
 );

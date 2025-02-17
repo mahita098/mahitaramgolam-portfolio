@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 
 const stackDescriptions = [
   "NextJS, ReactJS, TailwindCSS",
@@ -25,7 +26,13 @@ const App = () => {
   }, []);
 
   return (
-    <div className="md:min-h-screen min-h-screen flex flex-col items-center justify-center">
+    <motion.div
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 5 }}
+      exit={{ opacity: 0, y: -10 }}
+      transition={{ duration: 0.4 }}
+      className="md:min-h-screen min-h-screen flex flex-col items-center justify-center"
+    >
       <Header />
 
       <div className="flex flex-1 hero-content w-full flex-col lg:flex-row gap-6 ">
@@ -108,12 +115,14 @@ const App = () => {
                 a Front-end Developer.
               </span>
             </h1>
-            <p className="text-2xl mt-0">
+            <p className="text-xl md:text-2xl mt-0 text-justify custom-text-align-last">
               Learning, improving and building beautiful and interactive
               websites. I’m constantly driven to expand my knowledge and enhance
               my frontend skills.
             </p>
-            <p className="font-semibold text-2xl">TechStacks : {stack}</p>
+            <p className="font-semibold text-xl md:text-2xl">
+              TechStacks : {stack}
+            </p>
             <button className="btn btn-primary w-fit mx-auto md:mx-0 md:self-start">
               <a href="projects">Projects</a>
             </button>
@@ -121,7 +130,7 @@ const App = () => {
         </div>
       </div>
       <Footer />
-    </div>
+    </motion.div>
   );
 };
 

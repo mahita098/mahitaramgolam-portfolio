@@ -7,3 +7,7 @@
   /* Hide the default arrow */
   display: none;
 }
+
+.custom-text-align-last {
+  text-align-last: center;
+}
