@@ -1,6 +1,6 @@
 import Axios from "axios";
 import { useEffect, useState } from "react";
-import Cat from "/Cat.png";
+import Cat from "/images/Cat.png";
 
 export default function CatsApi() {
   //fetch("https://catfact.ninja/fact")
