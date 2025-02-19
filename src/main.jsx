@@ -13,11 +13,12 @@ import { motion } from "framer-motion";
 import "./index.css";
 import App from "./pages/App.jsx";
 import PersonalBlogs from "./pages/PersonalBlogs";
-import LearningBlogs from "./pages/LearningBlogs";
-import Events from "./pages/Events";
-import Projects from "./pages/Projects";
-import Cv from "./pages/Cv";
-import CatProj from "./pages/CatProj.jsx";
+import LearningBlogs from "./pages/learningBlogs.jsx";
+import Events from "./pages/events.jsx";
+import Projects from "./pages/projects.jsx";
+import Cv from "./pages/cv.jsx";
+import CatProj from "./pages/catProj.jsx";
+import Tamassa from "./pages/PersonalBlogs/tamassa.jsx";
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -31,6 +32,7 @@ const AnimatedRoutes = () => {
         <Route path="events" element={<Events />} />
         <Route path="cv" element={<Cv />} />
         <Route path="projects" element={<Projects />} />
+        <Route path="tamassa" element={<Tamassa />} />
       </Routes>
     </AnimatePresence>
   );

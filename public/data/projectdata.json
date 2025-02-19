@@ -2,7 +2,7 @@
   "projects": [
     {
       "projlink": "https://mahitaprofile.vercel.app/",
-      "projimage": "../newprofile.png",
+      "projimage": "../images/newprofile.png",
       "projtitle": "My Porfolio",
       "projdescription": "My own portfolio to showcase my work",
       "projgit": "https://github.com/mahita098/mahitaramgolam-portfolio",
@@ -10,7 +10,7 @@
     },
     {
       "projlink": "https://mahitaramgolam.netlify.app",
-      "projimage": "../2ndportfolio.png",
+      "projimage": "../images/2ndportfolio.png",
       "projtitle": "My Old Porfolio",
       "projdescription": "Build with only Html/Css/Js",
       "projgit": "https://github.com/mahita098/mahita-portfolio",
@@ -18,7 +18,7 @@
     },
     {
       "projlink": "https://to-do-list-hooks.vercel.app/",
-      "projimage": "../todolist.png",
+      "projimage": "../images/todolist.png",
       "projtitle": "TodoList",
       "projdescription": "Build with ReactJs/TailwindCSS",
       "projgit": "https://github.com/mahita098/to-do-list-hooks",
@@ -27,7 +27,7 @@
 
     {
       "projlink": "https://catfacts-olive.vercel.app",
-      "projimage": "../catfacts.png",
+      "projimage": "../images/catfacts.png",
       "projtitle": "Cat Facts",
       "projdescription": "Learning APIs - Now you can Generate some fun cat Facts",
       "projgit": "https://github.com/mahita098/cats-api",
@@ -35,7 +35,7 @@
     },
     {
       "projlink": "https://figma-landing-page-figma.netlify.app/",
-      "projimage": "../figmalandingpage.png",
+      "projimage": "../images/figmalandingpage.png",
       "projtitle": "A pretty corporate website",
       "projdescription": "Build this website as a test for a company i was being interviewed",
       "projgit": "https://github.com/mahita098/test-frontend-landing-page",
@@ -43,7 +43,7 @@
     },
     {
       "projlink": "https://web-test-mahi.netlify.app/",
-      "projimage": "../web-test.png",
+      "projimage": "../images/web-test.png",
       "projtitle": "A pretty business website",
       "projdescription": "Build this website as a test for a company i was being interviewed",
       "projgit": "https://github.com/mahita098/web-test",
@@ -51,7 +51,7 @@
     },
     {
       "projlink": "https://power-outage-somewhere.netlify.app/",
-      "projimage": "..//Power Outage.png",
+      "projimage": "../images/Power Outage.png",
       "projtitle": "Learning TailwindCSS",
       "projdescription": "Build while learning TailwindCSS",
       "projgit": "https://github.com/mahita098/power-outage-somewhere",
@@ -60,7 +60,7 @@
 
     {
       "projlink": "https://office-ag.netlify.app/",
-      "projimage": "../office-ag.png",
+      "projimage": "../images/office-ag.png",
       "projtitle": "An agency website",
       "projdescription": "Learning how to build website while focusing on Flexbox and Grid",
       "projgit": "https://github.com/mahita098/office-ag",
@@ -68,7 +68,7 @@
     },
     {
       "projlink": "invoices-work.netlify.app",
-      "projimage": "../invoices.png",
+      "projimage": "../images/invoices.png",
       "projtitle": "An Invoice",
       "projdescription": "Just an invoice using html css",
       "projgit": "https://github.com/mahita098/invoices",
@@ -76,7 +76,7 @@
     },
     {
       "projlink": "https://xyzab-page.netlify.app/",
-      "projimage": "../project1.png",
+      "projimage": "../images/project1.png",
       "projtitle": "XYZAB",
       "projdescription": "Building for practicing, i was so proud of myself 😂",
       "projgit": "https://github.com/mahita098/xyzab",
@@ -84,7 +84,7 @@
     },
     {
       "projlink": "https://google-homepage-phi-lac.vercel.app/",
-      "projimage": "../google.png",
+      "projimage": "../images/google.png",
       "projtitle": "Google Homepage!",
       "projdescription": "Homework- build google homepage",
       "projgit": "https://github.com/mahita098/Google-Homepage",
@@ -92,7 +92,7 @@
     },
     {
       "projlink": "https://twitter-upcode-challenge.netlify.app/",
-      "projimage": "..//mahi-twitter.png",
+      "projimage": "../images/mahi-twitter.png",
       "projtitle": "Tried Twitter!",
       "projdescription": "Upcode practice work - build twitter timeline",
       "projgit": "https://github.com/mahita098/twitter-page-upcode",
@@ -100,7 +100,7 @@
     },
     {
       "projlink": "https://mahitaramgolam.netlify.app/projects",
-      "projimage": "../practice.jpg",
+      "projimage": "../images/practice.jpg",
       "projtitle": "More Beginner Projects",
       "projdescription": "In my old portfolio you can find many more project i build to pratice my html/css",
 

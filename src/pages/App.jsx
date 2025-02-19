@@ -39,7 +39,7 @@ const App = () => {
         <div className="hero-content w-full flex flex-col lg:flex-row gap-8 md:gap-14  pt-16 md:pt-0 h-auto md:h-96">
           <div className="flex flex-col pt-4  h-full justify-evenly ">
             <img
-              src="../me4.jpg"
+              src="../images/me4.jpg"
               className="md:max-w-64 max-w-40 rounded-full shadow-2xl mb-2"
             />
             <div className="flex flex-row gap-3 justify-center ">

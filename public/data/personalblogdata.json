@@ -1,20 +1,20 @@
 {
   "personalblogs": [
     {
-      "pblogimage": "../sydney.jpg",
+      "pblogimage": "../images/sydney.jpg",
       "pblogtitle": "Sydney Australia",
       "pblogdescription": "First time travelling! 3 weeks in Sydney Australia, i made so many memories - I wrote the whole Itinery! - blog in progress",
       "pbloglink": ""
     },
     {
-      "pblogimage": "../tamassa.jpg",
+      "pblogimage": "../images/tamassa.jpg",
       "pblogtitle": "Tamassa Resort",
       "pblogdescription": "Spent 3 days at the Hotel with family - sharing reviews and moments - blog in progress",
-      "pbloglink": ""
+      "pbloglink": "/tamassa"
     },
 
     {
-      "pblogimage": "../parasailing.png",
+      "pblogimage": "../images/parasailing.png",
       "pblogtitle": "Ile aux Cerf + Parasailing",
       "pblogdescription": "First time parasailing - beautiful day spent at the beach with family - blog in progress",
       "pbloglink": ""
