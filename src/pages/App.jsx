@@ -115,7 +115,7 @@ const App = () => {
                 a Front-end Developer.
               </span>
             </h1>
-            <p className="text-xl md:text-2xl mt-0 text-justify custom-text-align-last">
+            <p className="text-xl md:text-2xl mt-0 text-justify md:text-left custom-text-align-last md:custom-text-align-start">
               Learning, improving and building beautiful and interactive
               websites. I’m constantly driven to expand my knowledge and enhance
               my frontend skills.

@@ -8,6 +8,8 @@
   display: none;
 }
 
-.custom-text-align-last {
-  text-align-last: center;
+@media screen and (max-width: 786px) {
+  .custom-text-align-last {
+    text-align-last: center;
+  }
 }
