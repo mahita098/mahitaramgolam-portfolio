@@ -8,21 +8,15 @@ const BlogArticleHeader = ({
   readtime,
 }) => {
   return (
-    <div className="text-left">
-      <h1 className="text-3xl font-bold py-3">{title}</h1>
-      <div className="text-lg pb-4">
-        <h2>{subtitle}</h2>
-        <p> {moredescription}</p>
+    <div className="flex justify-between">
+      <div className="text-left">
+        <h1 className="text-3xl font-bold py-3">{title}</h1>
+        <div className="text-lg pb-4 italic">
+          <h2>{subtitle}</h2>
+          <p> {moredescription}</p>
+        </div>
       </div>
-      <h2></h2>
-      <section class="flex items-center justify-start gap-4 ">
-        <ul>
-          <li>
-            <a href="" class="w-14 h-14 rounded-full overflow-hidden block">
-              <img src="../images/yellowpp.jpg" alt="" />
-            </a>
-          </li>
-        </ul>
+      <section class="flex items-end justify-start gap-4 ">
         <section class="">
           <h4 class=" md:text-xl font-semibold text-gray-600 dark:text-gray-300 text-left">
             <a className="text-lg" href="">
@@ -37,6 +31,13 @@ const BlogArticleHeader = ({
             </span>
           </div>
         </section>
+        <ul>
+          <li>
+            <a href="" class="w-14 h-14 rounded-full overflow-hidden block">
+              <img src="../images/yellowpp.jpg" alt="" />
+            </a>
+          </li>
+        </ul>{" "}
       </section>
     </div>
   );
