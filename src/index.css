@@ -13,3 +13,9 @@
     text-align-last: center;
   }
 }
+
+/* blog cards */
+
+.card.image-full:before {
+  opacity: 0.2;
+}
