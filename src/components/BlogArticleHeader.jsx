@@ -8,7 +8,7 @@ const BlogArticleHeader = ({
   readtime,
 }) => {
   return (
-    <div className="flex justify-between">
+    <div className="flex flex-col md:flex-row justify-between">
       <div className="text-left">
         <h1 className="text-3xl font-bold py-3">{title}</h1>
         <div className="text-lg pb-4 italic">
@@ -17,13 +17,13 @@ const BlogArticleHeader = ({
         </div>
       </div>
       <section class="flex items-end justify-start gap-4 ">
-        <section class="">
-          <h4 class=" md:text-xl font-semibold text-gray-600 dark:text-gray-300 text-left">
+        <section className="order-2 md:order-1 ">
+          <h4 className="md:text-xl font-semibold text-gray-600 dark:text-gray-300 text-left">
             <a className="text-lg" href="">
               Mahita Ramgolam{" "}
             </a>
           </h4>
-          <div class="text-gray-500 flex">
+          <div className="text-gray-500 flex">
             <p className="text-md">{date}</p>
             <span>
               {" "}
