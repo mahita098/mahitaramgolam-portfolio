@@ -9,6 +9,14 @@
       "projtags": ["ReactJS", "TailwindCSS", "ChakraUI", "DaisyUI", "Vite"]
     },
     {
+      "projlink": "https://meteo-maurice.vercel.app/",
+      "projimage": "../images/meteomaurice.png",
+      "projtitle": "Meteo Maurice",
+      "projdescription": "Mauritius Weather forecast for the week, data from Meteo Mauritius ",
+      "projgit": "https://github.com/mahita098/meteo-maurice",
+      "projtags": ["NextJS", "TailwindCSS", "API"]
+    },
+    {
       "projlink": "https://mahitaramgolam.netlify.app",
       "projimage": "../images/2ndportfolio.png",
       "projtitle": "My Old Porfolio",
@@ -20,7 +28,7 @@
       "projlink": "https://to-do-list-hooks.vercel.app/",
       "projimage": "../images/todolist.png",
       "projtitle": "TodoList",
-      "projdescription": "Build with ReactJs/TailwindCSS",
+      "projdescription": "Build a todo list app while learning CRUD",
       "projgit": "https://github.com/mahita098/to-do-list-hooks",
       "projtags": ["ReactJS", "TailwindCSS", "Vite"]
     },
