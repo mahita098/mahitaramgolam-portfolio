@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import CatsApi from "../components/CatsApi";
 import Footer from "../components/Footer";
+import React from "react";
 
 export default function CatProj() {
   return (

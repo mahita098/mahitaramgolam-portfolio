@@ -8,6 +8,7 @@ const stackDescriptions = [
   "NextJS, ReactJS, TailwindCSS",
   "VScode, Figma, Git",
   "HTML, SCSS, JS",
+  "NextJS, ReactJS, TailwindCSS",
 ];
 
 function genRandomInt(max) {

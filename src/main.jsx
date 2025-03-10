@@ -19,6 +19,7 @@ import Projects from "./pages/projects.jsx";
 import Cv from "./pages/cv.jsx";
 import CatProj from "./pages/catProj.jsx";
 import Tamassa from "./pages/PersonalBlogs/tamassa.jsx";
+import React from "react";
 
 const AnimatedRoutes = () => {
   const location = useLocation();

@@ -3,6 +3,7 @@ import ProjectCards from "../components/ProjectCards";
 import Footer from "../components/Footer";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
+import React from "react";
 
 export default function Projects() {
   const [data, setData] = useState([]);

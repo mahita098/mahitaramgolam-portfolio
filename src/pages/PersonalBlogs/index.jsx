@@ -2,6 +2,7 @@ import Header from "../../components/Header";
 import BlogCards from "../../components/BlogCards";
 import Footer from "../../components/Footer";
 import { motion } from "framer-motion";
+import React from "react";
 
 import { useEffect, useState } from "react";
 
