@@ -4,15 +4,23 @@
       "projlink": "https://mahitaprofile.vercel.app/",
       "projimage": "../images/newprofile.png",
       "projtitle": "My Porfolio",
-      "projdescription": "My own portfolio to showcase my work",
+      "projdescription": "My own portfolio to showcase my work.",
       "projgit": "https://github.com/mahita098/mahitaramgolam-portfolio",
       "projtags": ["ReactJS", "TailwindCSS", "ChakraUI", "DaisyUI", "Vite"]
+    },
+    {
+      "projlink": "https://meowmuscles.vercel.app/",
+      "projimage": "../images/meowmuscles.png",
+      "projtitle": "Meow Muscles",
+      "projdescription": "Workouts for women that want to gain weight and tone up.",
+      "projgit": "https://github.com/mahita098/weight-gain-path",
+      "projtags": ["NextJS", "TailwindCSS", "TailwindUI"]
     },
     {
       "projlink": "https://meteo-maurice.vercel.app/",
       "projimage": "../images/meteomaurice.png",
       "projtitle": "Meteo Maurice",
-      "projdescription": "Mauritius Weather forecast for the week, data from Meteo Mauritius ",
+      "projdescription": "Mauritius Weather forecast for the week, data from Meteo Mauritius.",
       "projgit": "https://github.com/mahita098/meteo-maurice",
       "projtags": ["NextJS", "TailwindCSS", "API"]
     },
@@ -28,7 +36,7 @@
       "projlink": "https://to-do-list-hooks.vercel.app/",
       "projimage": "../images/todolist.png",
       "projtitle": "TodoList",
-      "projdescription": "Build a todo list app while learning CRUD",
+      "projdescription": "Build a todo list app while learning CRUD.",
       "projgit": "https://github.com/mahita098/to-do-list-hooks",
       "projtags": ["ReactJS", "TailwindCSS", "Vite"]
     },
