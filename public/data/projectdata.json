@@ -42,6 +42,15 @@
     },
 
     {
+      "projlink": "https://investment-calculator-livid-two.vercel.app/",
+      "projimage": "../images/inv-calculator.png",
+      "projtitle": "Investment calculator",
+      "projdescription": "Learning Two way bindings from Udemy - please excuse the design 🙄",
+      "projgit": "https://github.com/mahita098/investment-calculator",
+      "projtags": ["NextJS", "TailwindCSS"]
+    },
+
+    {
       "projlink": "https://catfacts-olive.vercel.app",
       "projimage": "../images/catfacts.png",
       "projtitle": "Cat Facts",
