@@ -29,7 +29,7 @@ export default function Header() {
             <li>
               <a href="projects">Projects</a>
             </li>
-            <li>
+            {/* <li>
               <a>Blogs</a>
 
               <ul className="p-2">
@@ -44,10 +44,10 @@ export default function Header() {
                   <a href="catproject">Cat Facts</a>
                 </li>
               </ul>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a>Event</a>
-            </li>
+            </li> */}
 
             <li>
               <label class="flex cursor-pointer gap-2">
@@ -77,7 +77,7 @@ export default function Header() {
           <li>
             <a href="projects">Projects</a>
           </li>
-          <li>
+          {/* <li>
             <details>
               <summary>
                 Blogs{""}
@@ -109,10 +109,10 @@ export default function Header() {
                 </li>
               </ul>
             </details>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <a href="events">Events</a>
-          </li>
+          </li> */}
           <li>
             <div class="dropdown m-0 p-0">
               <div tabindex="0" role="button" class="btn h-0 min-h-9">
