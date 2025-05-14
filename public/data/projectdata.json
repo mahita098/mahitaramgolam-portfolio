@@ -9,6 +9,14 @@
       "projtags": ["ReactJS", "TailwindCSS", "ChakraUI", "DaisyUI", "Vite"]
     },
     {
+      "projlink": "https://calendar-ruby-nine-18.vercel.app/",
+      "projimage": "../images/calendar.png",
+      "projtitle": "Calendar",
+      "projdescription": "A cute calendar with drag and drop feature with event lists",
+      "projgit": "https://github.com/mahita098/calendar-cute",
+      "projtags": ["NextJS", "TailwindCSS", "Lucide"]
+    },
+    {
       "projlink": "https://meowmuscles.vercel.app/",
       "projimage": "../images/meowmuscles.png",
       "projtitle": "Meow Muscles",
