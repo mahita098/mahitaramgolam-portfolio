@@ -88,6 +88,21 @@ const Tamassa = () => {
                       <div id="item4" className="carousel-item max-w-2xl mx-2">
                         <img src={item.img4} className="max-w-2xl rounded-lg" />
                       </div>
+                      <div id="item5" className="carousel-item max-w-2xl mx-2">
+                        <img src={item.img5} className="max-w-2xl rounded-lg" />
+                      </div>
+                      <div id="item7" className="carousel-item max-w-2xl mx-2">
+                        <img
+                          src={item.img11}
+                          className="max-w-2xl rounded-lg"
+                        />
+                      </div>
+                      <div id="item6" className="carousel-item max-w-2xl mx-2">
+                        <img
+                          src={item.img12}
+                          className="max-w-2xl rounded-lg"
+                        />
+                      </div>
                     </div>
                     <div className="flex w-full justify-center gap-2 py-2">
                       <a href="#item1" className="btn btn-xs">
@@ -102,13 +117,25 @@ const Tamassa = () => {
                       <a href="#item4" className="btn btn-xs">
                         4
                       </a>
+                      <a href="#item5" className="btn btn-xs">
+                        5
+                      </a>
+                      <a href="#item6" className="btn btn-xs">
+                        6
+                      </a>
+                      <a href="#item7" className="btn btn-xs">
+                        7
+                      </a>
                     </div>
                     <p>{item.para5}</p>
                     <p>{item.para6}</p>
                     <p>{item.para7}</p>
                     <div className="carousel max-w-4xl h-[400px]  mx-auto">
                       <div id="item-1" className="carousel-item max-w-2xl mx-2">
-                        <img src={item.img5} className="max-w-2xl rounded-lg" />
+                        <img
+                          src={item.img5a}
+                          className="max-w-2xl rounded-lg"
+                        />
                       </div>
                       <div id="item-2" className="carousel-item max-w-2xl mx-2">
                         <img src={item.img6} className="max-w-2xl rounded-lg" />
@@ -125,6 +152,12 @@ const Tamassa = () => {
                       <div id="item-6" className="carousel-item max-w-2xl mx-2">
                         <img
                           src={item.img10}
+                          className="max-w-2xl rounded-lg"
+                        />
+                      </div>
+                      <div id="item-7" className="carousel-item max-w-2xl mx-2">
+                        <img
+                          src={item.img13}
                           className="max-w-2xl rounded-lg"
                         />
                       </div>
@@ -148,6 +181,9 @@ const Tamassa = () => {
                       <a href="#item-6" className="btn btn-xs">
                         6
                       </a>
+                      <a href="#item-7" className="btn btn-xs">
+                        7
+                      </a>
                     </div>
                     <p>{item.para8}</p>
 
@@ -165,20 +201,26 @@ const Tamassa = () => {
 
 const items = [
   {
-    img1: "../images/tamassa/tamassaentrance.jpg",
+    img1: "../images/tamassa/day1/tamassaentrance.jpg",
 
-    img2: "../images/tamassa/tamassaentrance2.jpg",
-    img3: "../images/tamassa/pool.jpg",
+    img2: "../images/tamassa/day1/tamassaentrance2.jpg",
+    img3: "../images/tamassa/day1/pool.jpg",
 
-    img4: "../images/tamassa/sunset.jpg",
+    img4: "../images/tamassa/day1/sunset.jpg",
 
-    img5: "../images/tamassa/hotelnav.jpg",
-    img6: "../images/tamassa/food1.jpg",
-    img7: "../images/tamassa/food2.jpg",
-    img8: "../images/tamassa/food3.jpg",
-    img9: "../images/tamassa/food4.jpg",
+    img5: "../images/tamassa/day1/pic3.jpg",
+    img5a: "../images/tamassa/day1/hotelnav.jpg",
 
-    img10: "../images/tamassa/hotel.jpg",
+    img11: "../images/tamassa/day1/me1.jpg",
+    img12: "../images/tamassa/day1/me2.jpg",
+
+    img6: "../images/tamassa/day1/food1.jpg",
+    img7: "../images/tamassa/day1/food2.jpg",
+    img8: "../images/tamassa/day1/food3.jpg",
+    img9: "../images/tamassa/day1/food4.jpg",
+
+    img10: "../images/tamassa/day1/hotel.jpg",
+    img13: "../images/tamassa/day1/food5.jpg",
 
     title: "1",
     contentTitle: "Day 1 - Our Tamassa Hotel Adventure & Birthday",
@@ -204,34 +246,90 @@ const items = [
     para9: "End",
   },
   {
+    img1: "../images/tamassa/day2/pic2.jpg",
+
+    img2: "../images/tamassa/day2/pic7.jpg",
+    img3: "../images/tamassa/day2/pic3.jpg",
+
+    img4: "../images/tamassa/day2/playing.jpg",
+
+    img5: "../images/tamassa/day2/pic1.jpg",
+    img5a: "../images/tamassa/day2/pic4.jpg",
+
+    img11: "../images/tamassa/day2/pic5.jpg",
+    img12: "../images/tamassa/day2/pic1.jpg",
+
+    img6: "../images/tamassa/day2/food1.jpg",
+    img7: "../images/tamassa/day2/food2.jpg",
+    img8: "../images/tamassa/day2/food3.jpg",
+    img9: "../images/tamassa/day2/me2.jpg",
+
+    img10: "../images/tamassa/day2/me1.jpg",
+    img13: "../images/tamassa/day2/pic8.jpg",
     title: "2",
     contentTitle: "Day 2 at Tamassa - Pool Fun, Activities & Good Vibes ",
     summary:
       "Day 2 was packed with fun and activities! We started with a delicious breakfast, then hit the pool for some refreshing swim time. After playing a game with a kids’ ball, we had a tasty lunch, with a Truck Burger being the highlight. In the afternoon, we went on a glass-bottom boat ride to explore the underwater world, followed by a sauna and hamam session (though I didn’t last long in either!). We also stumbled upon a foam party at the pool, which was super fun. After tea time, we swam a bit more and then tried our hand at tennis, where I wasn’t exactly a pro! Dinner was a hit, especially with the Rum Coco and Pina Coladas, followed by some dancing at the B-BAR. We ended the night exhausted but happy at 11 pm",
-    para1: "in progress",
-    para2: "",
-    para3: "",
-    para4: "",
-    para5: "",
-    para6: "",
-    para7: "",
-    para8: "",
-    para9: "",
+    para1:
+      "Woke up at 8:30 am—not really a morning person, but managed to get up in time for breakfast! 😊 The buffet closed at 10 am, so we headed over by 9. So grateful for the variety of food—there were omelettes, sausages, beans, croissants, and even a coffee machine! I’m picky with breakfast, so I just had some fruits, scrambled eggs, and bread. Thankful for simple but tasty options.",
+    para2:
+      "After breakfast, it was pool time! We changed into our swimwear and jumped into the pool right in front of our villa. The water was just perfect—not too hot or cold. It wasn’t very deep either, which was a plus for someone short like me! 😄 We swam a bit, then started playing ball with everyone. So much laughter and fun! I’m thankful for these silly, joyful family moments.",
+    para3:
+      "After nearly two hours in the pool, it was time for lunch. Skipped the buffet this time and went for the Truck Burger (only for all-inclusive guests)—no regrets but i FORGOT TO TAKE A PICTURE!!!, it was delicious! Grateful for good food and full bellies.",
+    para4:
+      " At 2 pm, we went on a glass-bottom boat ride. It was magical—corals, colorful fish, and the deep blue sea. I loved every moment. Thankful for nature’s beauty and this peaceful ride",
+    para5:
+      "Next stop: sauna and hammam. I really tried… but couldn’t last more than a minute! 😂 My family did much better. At least I got to enjoy the private mini pool nearby. Quiet and refreshing—so thankful for that calm little moment.",
+    para6:
+      "On our way out, we passed a foam party by the big pool! It looked like too much fun to miss, so we went back later. The pool was packed with foam, music was blasting, and everyone was having a blast. Thankful for spontaneous fun!",
+    para7:
+      "After all the excitement, it was tea time with some yummy Mauritian cakes and satini. Then, one more swim in the big pool before heading to the tennis court. I’m no tennis pro, so I ended up playing ping pong instead (much more my style!). Thankful for trying new things—even when I’m not great at them!",
+    para8:
+      "For dinner, we went back to the buffet and I actually enjoyed it way more this time. The drinks? Amazing. Rum Coco and Pina Colada were top-tier. We even danced a bit at the B-BAR—such good vibes. Thankful for music, laughter, and good company.",
+    para9:
+      "Finally, we called it a night around 11 pm—completely tired but super happy. What a day! 🥰",
   },
   {
+    img1: "../images/tamassa/day3/food1.jpg",
+
+    img2: "../images/tamassa/day3/food2.jpg",
+    img3: "../images/tamassa/day3/pic1.jpg",
+
+    img4: "../images/tamassa/day3/pic2.jpg",
+
+    img5: "../images/tamassa/day3/pic3.jpg",
+    img5a: "../images/tamassa/day3/pic4.jpg",
+
+    img11: "../images/tamassa/day3/pic5.jpg",
+    img12: "../images/tamassa/day3/pic6.jpg",
+
+    img6: "../images/tamassa/day3/pic7.jpg",
+    img7: "../images/tamassa/day3/pic8.jpg",
+    img8: "../images/tamassa/day3/pic9.jpg",
+    img9: "../images/tamassa/day3/pic10.jpg",
+
+    img10: "../images/tamassa/day3/pic11.jpg",
+    img13: "../images/tamassa/day3/pic12.jpg",
     title: "3",
     contentTitle: "Day 3 - Sunday Chill",
     summary:
       "I started my Sunday with some alone time at the beach, enjoying the peaceful morning view. After breakfast, I swam in the pool, even though the water was colder, but it was still refreshing. We packed up, and luckily, we were able to get a late check-out until 2 pm. For lunch, I decided to switch it up and enjoy kebabs and lamb, which were amazing. We didn’t visit the Playa restaurant since it wasn’t included in the package, but overall, I had a great time. The only downside was the number of cats on the property, which made me worry about them multiplying, so I left a negative review about it",
-    para1: "in progress",
-    para2: "",
-    para3: "",
-    para4: "",
-    para5: "",
-    para6: "",
-    para7: "",
-    para8: "",
-    para9: "",
+    para1:
+      "Sunday was all about me-time. I woke up at 8 am, freshened up, and headed straight to the beach for a solo nap. The view was calm and beautiful—such a peaceful way to start the day. Truly grateful for that quiet moment.",
+    para2:
+      "After breakfast, I went for a solo swim. The water was a bit chilly in the morning, but honestly, it felt so refreshing. Loved having the pool all to myself.",
+    para3:
+      "Later, we packed up and left everything in one room. Thankfully, we got a late check-out till 2 pm, so we didn’t have to rush. Really thankful for that extra bit of time to unwind.",
+    para4:
+      "Lunch was amazing again. I had my eyes on the burger, but then I saw kebabs, lamb, and a bunch of other tasty options—couldn’t resist! So glad I went for it. No regrets.",
+    para5:
+      "There was another restaurant, Playa, but since it wasn’t included in our package, we skipped it. Still, I enjoyed every bit of the trip and feel super thankful for the memories.",
+    para6:
+      "One little thing that bothered me, though—there were so many cats around. Tiny ones, pregnant ones... it felt a bit out of control.",
+    para7:
+      " I did leave a review about it because I was honestly concerned. Hope they do something about it.",
+    para8: "It was a really nice hotel, speacially for families!",
+    para9: "Enjoyed my time way more than i expected! Thank you bye.",
   },
 ];
 

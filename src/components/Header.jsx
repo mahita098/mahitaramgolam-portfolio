@@ -77,7 +77,7 @@ export default function Header() {
           <li>
             <a href="projects">Projects</a>
           </li>
-          {/* <li>
+          <li>
             <details>
               <summary>
                 Blogs{""}
@@ -109,7 +109,7 @@ export default function Header() {
                 </li>
               </ul>
             </details>
-          </li> */}
+          </li>
           {/* <li>
             <a href="events">Events</a>
           </li> */}

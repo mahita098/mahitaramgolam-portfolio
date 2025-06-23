@@ -1,15 +1,15 @@
 {
   "personalblogs": [
     {
-      "pblogimage": "../images/tamassa.jpg",
-      "pblogtitle": "Tamassa Resort",
+      "pblogimage": "../images/sydney.jpg",
+      "pblogtitle": "Sydney Australia",
       "pblogdescription": " - blog in progress",
       "pbloglink": "/tamassa",
       "pblogdate": "17 Dec 2024"
     },
     {
-      "pblogimage": "../images/sydney.jpg",
-      "pblogtitle": "Sydney Australia",
+      "pblogimage": "../images/tamassa.jpg",
+      "pblogtitle": "Tamassa Resort",
       "pblogdescription": " - blog in progress",
       "pbloglink": "/tamassa",
       "pblogdate": "17 Dec 2024"
